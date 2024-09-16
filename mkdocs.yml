@@ -1,0 +1,81 @@
+site_name: Open Wiki
+site_url: https://openwiki.lancers.technology
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotate
+    - content.code.copy
+  language: en
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+# nav:
+#   - Home: index.md
+#   - Blog:
+#       - Blog: blog/index.md
+#       - Tags: blog/tags.md
+#       - Categories: blog/categories.md
+#       - Archives: blog/archive.md
+
+plugins:
+  # - blog:
+  #     enabled: true
+  #     path: blog # Defines the folder where your blog posts are stored
+  #     feed: true # Enables RSS feed for your blog
+  #     tags: true # Enables tagging of posts
+  #     categories: true # Enables categorization of posts
+  #     archive: true # Adds archive pages by year
+  #     social_sharing: true # Adds social sharing buttons to posts
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/0x3f-lancers
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/lancerst/
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+copyright: |
+  &copy; 2024 <a href="https://github.com/0x3f-lancers"  target="_blank" rel="noopener">Lancers Technology</a>
