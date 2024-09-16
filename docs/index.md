@@ -9,8 +9,7 @@ At **Lancers Technology**, we believe that knowledge is a powerful tool that sho
 ### Why OpenWiki?
 
 - **Open Access**: All content on OpenWiki is open to the public. We encourage sharing, collaboration, and contribution from all who are passionate about expanding the knowledge base.
-- **Decentralization**: Centralized knowledge systems can limit access, restrict innovation, and stifle creativity. OpenWiki is a step towards breaking down those barriers by decentralizing information and ensuring it remains free and accessible.
-
+- **Open Source**: We believe in open source software and the power of community-driven development. OpenWiki is built on these principles, allowing anyone to contribute and improve the platform.
 - **Collaboration**: We welcome contributions from a wide range of disciplines and expertise. Whether you're an expert or an enthusiast, your insights and contributions can help expand our collective understanding.
 
 ## How to Contribute
